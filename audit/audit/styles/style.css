@@ -1,0 +1,78 @@
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #top_btns   {width: 100%;
+            height: 150px;
+            background-color: white;}
+
+#bottom_btns    {width: 100%;
+                height: 150px;
+                background-color: white;}
+
+.btns           {width: 49.75%;
+                height: 140px; /*150 no padding*/
+                margin-left: -1px;
+                float: left;
+                border-color: black;
+                border-width: 0px 0px 0px 2px;
+                border-style: solid;
+                text-align: center;
+                padding-top: 20px;
+                background-color: white;}
+
+.corner_icons   {width: 100px;
+                height: 90px;
+                background-color: transparent;}
+
+.corner_text    {color: gray;
+                font-family: sans-serif;}
+
+#register       {width: 100%;
+                height: 210px; /*210 no padding*/
+                padding-top: 30px;
+                text-align: center;
+                background-color: red;}
+
+.re_text        {color: white;
+                margin-bottom: 15px;
+                font-family: sans-serif;}
+
+.re_icon        {width: 150px;
+                height: 115px;
+                background-color: transparent;}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
