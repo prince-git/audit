@@ -16,9 +16,19 @@ linoinon
 
 <script>
     
-    var keeper = prompt("Are you worthy?");
+    var keeper = prompt("Are you worthy of the Spartan name?");
     
+    if(keeper == "yes"){
+        alert("Step forth and prove yourself");
+    }
     
+    if(keeper == "maybe"){
+        alert("There is no room for maybes in Sparta. Leave!");
+    }
+    
+    if(keeper == "no") {
+        alert("You are not welcome here. Turn back.");
+    }
     
     alert("I am the keymaster, are you the gatekeeper?");
     alert("I am the gatekeeper, Where are your keys?");
